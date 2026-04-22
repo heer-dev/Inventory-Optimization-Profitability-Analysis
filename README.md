@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Retail businesses often struggle with managing inventory efficiently while maintaining profitability. Excess stock, low-demand products, and negative profit margins can lead to significant financial losses.
+Retail businesses often struggle with managing inventory efficiently while maintaining profitability. Excess stock, low-demand products, and excessive discounting can lead to significant financial losses.
 
 This project analyzes retail sales and inventory data to identify inefficiencies in product performance, detect slow-moving inventory, and highlight high-demand products. The goal is to provide actionable insights that support better inventory planning and improve overall business profitability.
 
@@ -14,6 +14,7 @@ This project analyzes retail sales and inventory data to identify inefficiencies
 * Detect slow-moving (dead) inventory
 * Highlight high-demand products
 * Analyze regional performance
+* Evaluate the impact of discounting on profitability
 * Provide data-driven recommendations for inventory optimization
 
 ---
@@ -25,6 +26,7 @@ The business is facing:
 * Declining profitability due to certain products
 * Overstocking of low-demand items
 * Stockouts of high-demand products
+* Excessive discounting impacting margins
 * Lack of visibility into regional performance
 
 ---
@@ -34,7 +36,7 @@ The business is facing:
 ### Profitability
 
 * Which products are generating losses?
-* Which products have low profit margins?
+* Which products have low or negative profit margins?
 
 ### Inventory
 
@@ -49,13 +51,14 @@ The business is facing:
 ### Trends
 
 * How do sales and profit change over time?
+* Is business growth consistent?
 
 ---
 
 ## 🛠️ Tools & Technologies
 
-* SQL (Data Cleaning & Analysis)
-* Power BI (Dashboard)
+* SQL (Data Cleaning, Analysis, Window Functions)
+* Power BI (Dashboard & Visualization)
 * GitHub (Project Documentation)
 
 ---
@@ -85,42 +88,50 @@ inventory-analysis-project/
 
 ## 📊 Key Insights
 
-* A portion of products are generating negative profit
-* A small number of products contribute to a large share of revenue
-* Several products show very low sales (dead stock risk)
-* Certain regions perform significantly better than others
+* The business generated **~$177K in sales and $22.5K in profit**, with an overall profit margin of **12.7%**
+* Several products are generating **significant losses (over -$3000)**, indicating pricing or cost issues
+* High discount levels (**above 30%**) are strongly associated with **negative profitability**
+* The **Central region is underperforming**, with negative profit and a margin of ~ -25%
+* Inventory distribution is highly uneven:
+
+  * Some products sell frequently (high demand)
+  * Many products sell only 1–2 units (dead stock risk)
+* Certain sub-categories (e.g., Tables, Binders) are consistently unprofitable
 
 ---
 
 ## 💡 Recommendations
 
-* Discontinue or reprice loss-making products
+* Discontinue or reprice loss-making products to reduce profit leakage
+* Limit excessive discounting, especially above 30%
 * Reduce stock levels for slow-moving inventory
-* Increase inventory for high-demand products
-* Focus marketing efforts on high-performing regions
+* Increase inventory and promotion for high-demand products
+* Investigate and improve performance in the Central region
+* Implement data-driven pricing and inventory strategies
 
 ---
 
 ## 🚀 Business Impact
 
-This analysis helps:
+This analysis enables:
 
-* Improve profitability
-* Reduce unnecessary inventory costs
-* Optimize stock planning
-* Enable better decision-making
+* Improved profitability through better pricing and product selection
+* Reduced inventory holding costs
+* Optimized stock allocation across regions
+* Better decision-making using data-driven insights
 
 ---
 
 ## 🔗 Future Improvements
 
-* Add demand forecasting
-* Include customer segmentation
-* Build automated dashboards
+* Add demand forecasting models
+* Include customer segmentation analysis
+* Build automated dashboards with real-time updates
+* Incorporate inventory turnover metrics
 
 ---
 
 ## 📢 Author
 
-Heer Patel
-Business Analyst
+**Heer Patel**
+Data Analyst / Business Analyst
