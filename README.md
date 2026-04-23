@@ -66,22 +66,39 @@ The business is facing:
 ## 📂 Project Structure
 
 inventory-analysis-project/
+
 │
+
 ├── data/
+
 │   └── retail_data.csv
+
 │
+
 ├── sql/
+
 │   ├── data_cleaning.sql
+
 │   └── analysis.sql
+
 │
+
 ├── dashboard/
+
 │   └── inventory_dashboard.pbix
+
 │
+
 ├── docs/
+
 │   ├── requirements.md
+
 │   ├── user_stories.md
+
 │   └── insights.md
+
 │
+
 └── README.md
 
 ---
