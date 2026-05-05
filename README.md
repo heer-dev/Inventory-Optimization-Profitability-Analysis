@@ -151,4 +151,3 @@ This analysis enables:
 ## 📢 Author
 
 **Heer Patel**
-Data Analyst / Business Analyst
