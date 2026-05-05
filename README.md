@@ -146,8 +146,4 @@ This analysis enables:
 * Build automated dashboards with real-time updates
 * Incorporate inventory turnover metrics
 
----
 
-## 📢 Author
-
-**Heer Patel**
